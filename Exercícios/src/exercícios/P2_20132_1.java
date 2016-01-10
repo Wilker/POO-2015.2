@@ -51,6 +51,7 @@ public class P2_20132_1 {
                 cont++;
             }
             origDest[orig][dest] = tmp[2];
+            origDest[dest][orig] = tmp[2];
         }
         in.close();
         return origDest;
